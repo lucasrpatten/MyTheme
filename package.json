@@ -1,7 +1,7 @@
 {
     "name": "betterdark",
     "displayName": "BetterDark",
-    "description": "",
+    "description": "Better Dark Theme",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.69.0"
@@ -12,9 +12,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "BetterDark",
+                "label": "Better Dark Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/BetterDark-color-theme.json"
+                "path": "./themes/Better Dark Theme-color-theme.json"
+            },
+            {
+                "label": "Contrast Better Dark Theme",
+                "uiTheme": "hc-black",
+                "path": "./themes/Contrast Better Dark Theme-color-theme.json"
             }
         ]
     }
